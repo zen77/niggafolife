@@ -1,0 +1,33 @@
+body {
+    background: black;
+}
+
+video {
+    border: groove greenyellow 20px;
+    height: 850px;
+    width:  inherit;
+    display: block;
+    margin: 0 auto;
+}
+
+#particle {
+    display: block;
+    margin: 0 auto;
+    height: 900px;
+    width:  2000px;
+    position: absolute;
+    top: 0;
+}
+
+#player {
+    -webkit-animation-duration: 3s;
+    -animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#text {
+    color: white;
+    -vendor-animation-duration: 10s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+}
